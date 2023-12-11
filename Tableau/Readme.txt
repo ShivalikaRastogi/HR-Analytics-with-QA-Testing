@@ -64,7 +64,7 @@ This includes trendline and target line to help HR managers track progress towar
 
 ## DASHBOARD:
 
-![HR Dashboard ](https://github.com/ShivalikaRastogi/HR-Analytics-Tableau/blob/main/Dashboard%20picture.png)
+![HR Dashboard ](https://github.com/ShivalikaRastogi/HR-Analytics-with-QA-Testing/blob/main/Tableau/Dashboard%20picture.png)
 
 ### DASHBOARD OVERVIEW:
 
