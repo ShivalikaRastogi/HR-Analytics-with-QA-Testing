@@ -183,6 +183,61 @@ SELECT round(AVG(AGE)) AS "Average Age"
 FROM hrdata where Education='Master''s Degree';
 
 -- 2) ATTRITION BY GENDER
+SELECT gender, COUNT(attrition) AS attrition_count
+FROM hrdata
+WHERE attrition='Yes'
+GROUP BY gender
+ORDER BY COUNT(attrition) DESC;
+
+-- 3) DEPARTMENT WISE ATTRITION:
+SELECT department, COUNT(attrition), round((CAST (COUNT(attrition) AS numeric) / 
+(SELECT COUNT(attrition) FROM hrdata WHERE attrition= 'Yes')) * 100, 2) AS percent
+FROM hrdata
+WHERE attrition='Yes'
+GROUP BY department 
+ORDER BY COUNT(attrition) DESC;
+
+-- 4) NO OF EMPLOYEE BY AGE GROUP
+SELECT age_band, gender, SUM(employee_count) 
+AS count_of_employees
+FROM hrdata
+GROUP BY age_band, gender
+ORDER BY age_band, gender DESC;
+
+-- 5) EDUCATION FIELD WISE ATTRITION:
+SELECT education_field, COUNT(attrition) AS attrition_count
+FROM hrdata
+WHERE attrition='Yes'
+GROUP BY education_field
+ORDER BY COUNT(attrition) DESC;
+
+-- 6) ATTRITION RATE BY GENDER FOR DIFFERENT AGE GROUP
+SELECT age_band, gender, COUNT(attrition) AS attrition_count, 
+round((CAST(COUNT(attrition) AS numeric) /
+(SELECT COUNT(attrition) FROM hrdata WHERE attrition = 'Yes')) * 100,2) AS percent
+FROM hrdata
+WHERE attrition = 'Yes'
+GROUP BY age_band, gender
+ORDER BY age_band, gender DESC;
+
+
+-- 7) JOB SATISFACTION RATING
+CREATE EXTENSION IF NOT EXISTS tablefunc;
+-- Run this query first to activate the cosstab() function in postgres
+CREATE EXTENSION IF NOT EXISTS tablefunc;
+-- Then run this to get o/p
+SELECT * FROM crosstab(
+  'SELECT job_role, job_satisfaction, sum(employee_count)
+   FROM hrdata
+   GROUP BY job_role, job_satisfaction
+   ORDER BY job_role, job_satisfaction'
+	) AS ct(job_role varchar(50), one numeric, 
+			two numeric, three numeric, four numeric)
+ORDER BY job_role;
+
+
+
+
 
 
 
