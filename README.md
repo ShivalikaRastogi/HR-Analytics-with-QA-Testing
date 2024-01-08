@@ -63,14 +63,14 @@ Created an HR Database in Postgre SQL, crafted SQL queries and created a quality
 * DATA VALIDATION: Checked accuracy and quality of data in order To match the values in Power BI/Tableau report with SQL queries.
 * TESTING REPORT : Created a Test document containing the screenshots and queries used to test the reports.
 
-💼TABLEAU DASHBOARD:
+# 💼 TABLEAU DASHBOARD:
 
 ![Tableau Dashboard ](https://github.com/ShivalikaRastogi/HR-Analytics-Tableau/blob/main/Dashboard%20picture.png)
 
 [Link to My Tableau Dashboard](https://www.novypro.com/project/hr-analytics--13)
 
 
-POWER BI DASHBOARD:
+# 💼 POWER BI DASHBOARD:
 ![Poerbi Dashboard ](https://github.com/ShivalikaRastogi/HR-Analysis-PowerBi/blob/main/Dashboard%20img.png)
 
 [Link to My PowerBi Dashboard](https://www.novypro.com/project/hr-analytics-dashboard-185)
