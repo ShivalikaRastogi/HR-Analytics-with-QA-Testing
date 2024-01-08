@@ -55,7 +55,13 @@ The bar chart illustrating attrition by salary levels provides insights into whe
 The tree chart depicting attrition by gender can highlight any gender-based attrition patterns within the organization. This insight can prompt a closer examination of potential issues related to diversity and inclusion, career development, or work environment that may affect employee retention.
 
 
-#  🔄 QA Test Document :
+#  🔄 QA Testing :
+
+Created an HR Database in Postgre SQL, crafted SQL queries and created a quality assurance test document to ensure the quality of the dashboard.
+
+* FUNCTIONAL VALIDATION: Test each feature work as per the requirement. To verify all the filters and Action Filters on the report work as per the requirement.
+* DATA VALIDATION: Checked accuracy and quality of data in order To match the values in Power BI/Tableau report with SQL queries.
+* TESTING REPORT : Created a Test document containing the screenshots and queries used to test the reports.
 
 💼TABLEAU DASHBOARD:
 
