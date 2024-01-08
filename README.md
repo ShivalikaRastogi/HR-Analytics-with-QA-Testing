@@ -16,10 +16,10 @@ TABLEAU DASHBOARD:
 
 ![Tableau Dashboard ](https://github.com/ShivalikaRastogi/HR-Analytics-Tableau/blob/main/Dashboard%20picture.png)
 
-[Link to My Dashboard](https://www.novypro.com/project/hr-analytics--13)
+[Link to My Tableau Dashboard](https://www.novypro.com/project/hr-analytics--13)
 
 
 POWER BI DASHBOARD:
 ![Poerbi Dashboard ](https://github.com/ShivalikaRastogi/HR-Analysis-PowerBi/blob/main/Dashboard%20img.png)
 
-Link to the dashboard → (https://www.novypro.com/project/hr-analytics-dashboard-185)
+[Link to My PowerBi Dashboard](https://www.novypro.com/project/hr-analytics-dashboard-185)
