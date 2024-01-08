@@ -55,7 +55,7 @@ The bar chart illustrating attrition by salary levels provides insights into whe
 The tree chart depicting attrition by gender can highlight any gender-based attrition patterns within the organization. This insight can prompt a closer examination of potential issues related to diversity and inclusion, career development, or work environment that may affect employee retention.
 
 
-#  🔄 QA Testing :
+# 🔄 QA Testing :
 
 Created an HR Database in Postgre SQL, crafted SQL queries and created a quality assurance test document to ensure the quality of the dashboard.
 
@@ -63,14 +63,14 @@ Created an HR Database in Postgre SQL, crafted SQL queries and created a quality
 * DATA VALIDATION: Checked accuracy and quality of data in order To match the values in Power BI/Tableau report with SQL queries.
 * TESTING REPORT : Created a Test document containing the screenshots and queries used to test the reports.
 
-# 💼 TABLEAU DASHBOARD:
+## 💼 TABLEAU DASHBOARD:
 
 ![Tableau Dashboard ](https://github.com/ShivalikaRastogi/HR-Analytics-Tableau/blob/main/Dashboard%20picture.png)
 
 [Link to My Tableau Dashboard](https://www.novypro.com/project/hr-analytics--13)
 
 
-# 💼 POWER BI DASHBOARD:
+## 💼 POWER BI DASHBOARD:
 ![Poerbi Dashboard ](https://github.com/ShivalikaRastogi/HR-Analysis-PowerBi/blob/main/Dashboard%20img.png)
 
 [Link to My PowerBi Dashboard](https://www.novypro.com/project/hr-analytics-dashboard-185)
