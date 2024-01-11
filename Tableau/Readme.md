@@ -24,9 +24,8 @@ This includes trendline and target line to help HR managers track progress towar
 
 1) Data subset collected from online.
 2) Understanding the Data.
-3) Loading Libraries.
-4) Data Cleaning & Finding Missing values.
-5) Data Visualization.
+3) Data Cleaning & Finding Missing values.
+4) Data Visualization.
 
 ## 💼 DATA CLEANING:
 
