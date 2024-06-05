@@ -20,19 +20,16 @@ employee experience and reduce turnover.
 
 ## 📈 DASHBOARD VISUALIZATIONS
 
-1. **Tree Map**: Displays attrition by gender, providing a visual comparison of attrition rates between male and female employees.
 
-2. **Donut Chart**: Represents attrition by education, showing the proportion of employees leaving based on their education level.
+1. **Donut Chart**:  Displays attrition by gender and age gap, providing a visual comparison of attrition rates between male and female employees within the age gap.
 
-3. **Bar Graph**: Illustrates attrition by age, highlighting the attrition rate for different age groups.
+2. **Bar Graph**: Illustrates attrition by age, highlighting the attrition rate for different age groups.
 
-4. **Heat Map**: Shows job role satisfaction, indicating the level of satisfaction for different job roles within the company.
+3. **Heat Map**: Shows job role satisfaction, indicating the level of satisfaction for different job roles within the company.
 
-5. **Clustered Bar Chart**: Depicts attrition by salary slab, allowing comparison of attrition rates across different salary ranges.
+4. **Clustered Bar Chart**: Depicts attrition by Education background, showing the proportion of employees leaving based on their education level.
 
-6. **Stacked Area Chart**: Visualizes attrition by years at the company, demonstrating attrition trends based on the duration of employment.
-
-7. **Clustered Chart**: Displays attrition by job role, providing a comparison of attrition rates across various job roles.
+5. **Pi Chart**: Displays attrition by department, allowing comparison of attrition rates across different departments.
 
 #  ✨ INSIGHTS GENERATED :
 
